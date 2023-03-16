@@ -1,0 +1,69 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.formField {
+  display: block;
+}
+
+.formField ,.formFieldTxt {
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  background-color: black;
+  padding: 0.5rem;
+ 
+
+  
+}
+.formFieldTxt{
+  display: block;
+  height: 240px;
+  width: 800px;
+}
+
+input:focus {
+  box-shadow: none;
+}
+.namEmail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.inputName{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20rem;
+    
+    
+}
+.inputEmail{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.input{
+  margin: 20px;
+}
+.errorMessage {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+.input label{
+  font-size: 20px;
+}
+.inputEmail label{
+  font-size: 20px;
+}
+.inputName label{
+  font-size: 20px;
+}
